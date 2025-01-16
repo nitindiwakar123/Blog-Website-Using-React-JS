@@ -44,7 +44,7 @@ function Header() {
                             </div>
 
                             <button
-                                className="block md:hidden justify-self-end"
+                                className="block md:hidden justify-self-end text-xl hover:bg-slate-200 py-2 px-3 rounded-full"
                                 onClick={() => setIsOpen(!isOpen)}
                             >
                                 {isOpen ? <i className="fa-regular fa-circle-xmark"></i> : <i className="fa-solid fa-list"></i>}

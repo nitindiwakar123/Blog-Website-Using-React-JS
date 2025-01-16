@@ -31,7 +31,7 @@ function LogoutBtn() {
         <>
             {isLoggingOut && <Loader />}
             <button
-                className="text-gray-600 md:text-white bg-transparent md:bg-custom-purple flex justify-center items-center gap-2 hover:bg-violet-800 p-0 md:px-5 md:py-2 font-sans outline-none rounded-md transition-all duration-200 ease-linear"
+                className="text-gray-600 md:text-white bg-transparent md:bg-custom-purple flex justify-center items-center gap-2 md:hover:bg-violet-800 p-0 md:px-5 md:py-2 font-sans outline-none rounded-md transition-all duration-200 ease-linear"
                 onClick={handleLogout}>
                 Logout
                 <i className="fa-solid fa-right-from-bracket"></i>

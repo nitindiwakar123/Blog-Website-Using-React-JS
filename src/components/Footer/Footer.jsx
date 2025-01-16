@@ -11,12 +11,12 @@ function Footer() {
     return (
         <footer className="w-full">
             <div>
-                {!authStatus && <section className="w-full relative bg-custom-purple px-32 py-24 overflow-hidden">
+                {!authStatus && <section className="w-full relative bg-custom-purple px-10 md:px-32 py-24 overflow-hidden">
                     <div className="hidden lg:block w-1/2 absolute top-[-120px] left-0">
                         <img src={up} alt="" />
                     </div>
-                    <div className="w-[70%] lg:w-2/3 mx-auto relative z-10 flex flex-col justify-center items-center gap-7 text-center">
-                        <h1 className="text-custom-white text-4xl font-semibold font-sans ">Share your stories, explore new ones – click Get Started to join!</h1>
+                    <div className="w-full md:w-[70%] lg:w-2/3 mx-auto relative z-10 flex flex-col justify-center items-center gap-7 text-center">
+                        <h1 className="text-custom-white text-3xl md:text-4xl font-semibold font-sans ">Share your stories, explore new ones – click Get Started to join!</h1>
                          <Button className="text-custom-white border border-white">Get Started</Button>
                         <p className="text-white">Unlock a world of storytelling by signing up! Share your unique experiences, insights, and perspectives through your own blogs, while discovering fresh stories from others. Connect with a vibrant community</p>
                     </div>
