@@ -99,7 +99,6 @@ function Home() {
                         {console.log(posts.length)}
                         {posts?.map((post, index) => {
                             if (index > posts.length - 4) {
-                                console.log("index: ", index);
                                 return <PostCard key={index} post={post} />; // Ensure to return PostCard here
                             }
                             return null; // Return null for items that don't meet the condition
