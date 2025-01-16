@@ -7,7 +7,7 @@ import LogoutBtn from "./Header/LogoutBtn";
 import CreatePostBtn from "./Header/CreatePostBtn";
 import Footer from "./Footer/Footer";
 import Input from "./Input";
-import Login from "./login";
+import Login from "./Login";
 import Signup from "./Signup";
 import RTE from "./PostForm/RTE";
 import PostForm from "./PostForm/PostForm";
