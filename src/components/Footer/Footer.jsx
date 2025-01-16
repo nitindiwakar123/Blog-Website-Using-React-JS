@@ -35,16 +35,16 @@ function Footer() {
                                 <li><Link to="/contact">Contact Us</Link></li>
                             </ul>
                             <div className="flex justify-between items-center gap-5 text-2xl">
-                                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                                <a href="https://www.instagram.com/coder_nitin01/" target="_blank" rel="noopener noreferrer">
                                     <i className="fab fa-instagram"></i>
                                 </a>
                                 <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
                                     <i className="fab fa-facebook"></i>
                                 </a>
-                                <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                                <a href="https://github.com/nitindiwakar123" target="_blank" rel="noopener noreferrer">
                                     <i className="fab fa-github"></i>
                                 </a>
-                                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                                <a href="https://www.linkedin.com/in/nitin-diwakar-398483280" target="_blank" rel="noopener noreferrer">
                                     <i className="fab fa-linkedin"></i>
                                 </a>
                             </div>
